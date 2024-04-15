@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pokedex_items",
+	"version": "${version}",
+	"name": "Pokédex: Items",
+	"description": "Adds custom items from Pokémon to be used with starlitWixen's Pokédex: Origins project.",
+	"authors": [
+		"starlitWixen"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/pokedex_items/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.starlitwixen.pokedexitems.PokedexItems"
+		],
+		"client": [
+			"net.starlitwixen.pokedexitems.PokedexItemsClient"
+		],
+		"fabric-datagen": [
+			"net.starlitwixen.pokedexitems.PokedexItemsDataGenerator"
+		]
+	},
+	"mixins": [
+		"pokedex_items.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
