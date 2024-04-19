@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pokedex_items:block/deepslate_eviolite_ore"
+  }
+}

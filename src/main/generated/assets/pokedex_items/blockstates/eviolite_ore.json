@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pokedex_items:block/eviolite_ore"
+    }
+  }
+}

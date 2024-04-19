@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "eviolite",
+  "ingredient": {
+    "item": "pokedex_items:eviolite_ore"
+  },
+  "result": "pokedex_items:eviolite"
+}

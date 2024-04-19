@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pokedex_items:eviolite_ore",
+    "pokedex_items:deepslate_eviolite_ore",
+    "pokedex_items:meganite_ore",
+    "pokedex_items:deepslate_meganite_ore"
+  ]
+}
